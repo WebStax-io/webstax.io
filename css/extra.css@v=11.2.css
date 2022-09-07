@@ -1,0 +1,50 @@
+.contact {
+	align-items: center;
+	justify-content: space-between;
+	display: flex;
+	background: linear-gradient(90deg, #b8b8b8c0 0%, #363636c0 100%);
+	border-radius: 5rem;
+	width: inherit;
+	padding: 1.5rem;
+}
+
+.contact>div {
+	color: white;
+	font-weight: 500;
+	margin-left: 2rem;
+}
+
+.contact-btn {
+	border: 2px solid white !important;
+	flex-wrap: wrap;
+	border-radius: 60px;
+	background-color: white;
+	color: #322f53;
+	padding: 0.75rem 2rem;
+	margin-right: .5rem;
+}
+
+.contact-btn:hover {
+	background-color: transparent;
+	color: white;
+}
+
+
+@media screen and (max-width: 600px) {
+	.contact {
+		flex-direction: column;
+		border-radius: 2rem;
+	}
+
+	.contact>div {
+		margin: 0;
+	}
+
+	.contact-btn {
+		margin: 0 auto;
+		margin-top: 1rem;
+		align-self: flex-start;
+		width: 100%;
+		padding: .5rem 2rem;
+	}
+}
