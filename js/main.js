@@ -2,7 +2,7 @@
 	'use strict';
 
 	const cfg = {
-		finalDate: 'October 19, 2022 00:00:00'
+		finalDate: 'March 19, 2023 00:00:00'
 	};
 
 
